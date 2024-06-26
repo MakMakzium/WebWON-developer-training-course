@@ -1,0 +1,57 @@
+#파이썬 변수 선언하는 예제
+#파이썬은 변수를 변수명 = 값; 으로 선언할 수 있다.
+age = 22; #age(나이)변수에 변수값 22를 저장합니다.
+year = 2024; #년도(year)변수에 정수값 2024를 저장합니다.
+
+#자바 Float variable
+// temperature라는 이름의 float 타입 변수를 선언하고, 그 값으로 36.5를 할당하고 있습니다.
+// float 타입은 실수를 담을 수 있는 데이터 타입입니다.
+float temperature = 36.5;
+//price라는 이름의 float ㅍ타입 변수를 선언하고, 그 값으로 9.99를 할당하고 있습니다.
+float price = 9.99;
+
+#파이썬 Float variable
+temperature = 36.5
+price = 9.99
+
+#자바 String variable
+String name = "John";
+
+#파이썬 String variable
+message = "Hello,world"
+
+#자바 Boolean variable
+boolean is_valid = true;
+boolean is_found = false;
+
+#파이썬 Boolean variable
+is_valid = True
+is_found = False
+
+'//'는 자바의 주석
+'#'은 파이썬의 주석
+
+입력과 출력
+
+#파이썬
+#프로그램에서 사용자가 입력하도록 하는 코드
+#input()으로 콘솔에서 사용자에게 데이터를 입력 받을 수 있다
+#input()의 소괄호 안에 사용자에게 어떤 데이터를 입력해야할지 알려주는 문구를 작성한다.
+name = input("이름을 입력하세요.")
+age = int(input("나이를 입력하세요."))
+#int를 붙여 자료형을 명시적으로 선언. defalut 시 문자열
+
+#프로그램에서 출력하는 코드
+#print()로 콘솔에 출력을 할 수 있다.
+#print()의 소괄호 안에 출력할 데이터를 넣어 준다.
+print("입력받은 이름:",name)
+print("입력받은 나이:",age)
+
+
+이름을 입력하세요.파이쏜 나이를 입력하세요.2024 입력받은 이름: 파이쏜 입력받은 나이: 2024
+//자바
+//Scanner클래스로부터 객체를 받아서 입력을 함.
+import java.util.Scanner;
+
+Scanner stdin=new Scanner(System.in);
+System.out.println(stdin.nextInt());
